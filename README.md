@@ -8,6 +8,8 @@ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 
 sudo apt-get install -y nodejs
 
+*make sure node was installed with "node version": version 10.x.x should be installed*
+
 sudo apt-get install libav-tools
 
 sudo npm -g install http-server
