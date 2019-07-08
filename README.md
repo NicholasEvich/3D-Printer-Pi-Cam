@@ -1,27 +1,27 @@
 # 3D-Printer-Pi-Cam
 
-sudo apt-get update
+**sudo apt-get update**
 
-sudo apt-get dist-upgrade
+**sudo apt-get dist-upgrade**
 
-curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+**curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -**
 
-sudo apt-get install -y nodejs
+**sudo apt-get install -y nodejs**
 
-*make sure node was installed with "node version": version 10.x.x should be installed*
+make sure node was installed with "node version": version 10.x.x should be installed
 
-sudo apt-get install libav-tools
+**sudo apt-get install libav-tools**
 
-sudo npm -g install http-server
+**sudo npm -g install http-server**
 
-sudo apt-get install git
+**sudo apt-get install git**
 
-*clone this repository*
+clone this repository
 
-*cd into the cloned folder*
+cd into the cloned folder
 
-npm install ws
+**npm install ws**
 
-*find an unused IP address for the pi and edit it in /etc/network/interfaces*
+find an unused IP address for the pi and edit it in /etc/network/interfaces
 
-To start the camera using ssh or other methods, run "node websocket-relay-remote-only.js supersecret 8081 8082"
+To start the camera using ssh or other methods, run **node websocket-relay-remote-only.js supersecret 8081 8082**
