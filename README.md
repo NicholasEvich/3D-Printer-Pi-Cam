@@ -1,8 +1,11 @@
 # 3D-Printer-Pi-Cam
 
 sudo apt-get update
+
 sudo apt-get dist-upgrade
-curl -sL https://deb.nodesource.com/setup_10.x | sudo -E nash -
+
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+
 sudo apt-get install -y nodejs
 
 sudo apt-get install libav-tools
@@ -12,6 +15,7 @@ sudo npm -g install http-server
 sudo apt-get install git
 
 *clone this repository*
+
 *cd into the cloned folder*
 
 npm install ws
